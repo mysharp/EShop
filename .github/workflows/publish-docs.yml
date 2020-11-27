@@ -3,6 +3,11 @@ on:
   push:
     branches:
       - master
+      - main
+  pull_request:
+    branches:
+      - master
+      - main
 jobs:
   publish:
     runs-on: ubuntu-latest
